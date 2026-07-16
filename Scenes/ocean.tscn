@@ -17,5 +17,6 @@ position = Vector2(157, 226)
 texture = ExtResource("3_otwcc")
 
 [node name="Helicopter" type="Sprite2D" parent="." unique_id=2006180069]
-position = Vector2(811, 347)
+position = Vector2(386, 90)
+rotation = 1.5707964
 texture = ExtResource("4_wsrqd")
