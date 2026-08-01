@@ -20,7 +20,7 @@ position = Vector2(353, 255)
 texture = ExtResource("3_otwcc")
 
 [node name="Helicopter" type="Sprite2D" parent="." unique_id=2006180069]
-position = Vector2(762, 489)
+position = Vector2(746, 338)
 texture = ExtResource("4_wsrqd")
 
 [node name="EatingSound" type="AudioStreamPlayer" parent="." unique_id=1036059624]
