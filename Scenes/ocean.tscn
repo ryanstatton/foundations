@@ -8,24 +8,26 @@
 [ext_resource type="Texture2D" uid="uid://bbwdjf0wad2rp" path="res://Assets/Carrier.png" id="6_wsrqd"]
 
 [node name="Ocean" type="Node2D" unique_id=1798448743]
+y_sort_enabled = true
 script = ExtResource("1_likbp")
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=412178211]
+[node name="Water" type="Sprite2D" parent="." unique_id=412178211]
 texture = ExtResource("1_q5nav")
 centered = false
 
+[node name="Helicopter" type="Sprite2D" parent="." unique_id=2006180069]
+position = Vector2(429, 417)
+texture = ExtResource("4_wsrqd")
+
+[node name="Carrier" type="Sprite2D" parent="." unique_id=2099527935]
+position = Vector2(694, 202)
+texture = ExtResource("6_wsrqd")
+
 [node name="Plane" type="Sprite2D" parent="." unique_id=597835528]
 unique_name_in_owner = true
-position = Vector2(353, 255)
+position = Vector2(253, 154)
+rotation = 0.7853982
 texture = ExtResource("3_otwcc")
-
-[node name="Helicopter" type="Sprite2D" parent="." unique_id=2006180069]
-position = Vector2(746, 338)
-texture = ExtResource("4_wsrqd")
 
 [node name="EatingSound" type="AudioStreamPlayer" parent="." unique_id=1036059624]
 stream = ExtResource("5_otwcc")
-
-[node name="Carrier" type="Sprite2D" parent="." unique_id=2099527935]
-position = Vector2(700, 200)
-texture = ExtResource("6_wsrqd")
