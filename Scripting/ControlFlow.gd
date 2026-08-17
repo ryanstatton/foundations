@@ -31,5 +31,11 @@ func _run() -> void:
 	for member in fellowship:
 		if member == "Gimli":
 			continue
+		elif member == "Boromir":
+			break
 		print(member)
+		
+	for orc in range(10,21):
+		print("Orc number: ", orc)
+		
 	
