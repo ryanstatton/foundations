@@ -7,8 +7,8 @@ func racial_profile(the_race: Race) -> void:
 	match the_race:
 		Race.HOBBIT:
 			print("Race.HOBBIT")
-		Race.DWARF:
-			print("Race.DWARF")
+		Race.DWARF, Race.WIZARD:
+			print("Race.DWARF or Race.WIZARD")
 		_:
 			print("Not the race we want")
 			
